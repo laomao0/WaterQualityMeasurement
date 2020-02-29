@@ -1,0 +1,15 @@
+..\..\output\modbuscrc.o: ..\..\User\ModbusRTU\MODBUSCRC\ModbusCRC.c
+..\..\output\modbuscrc.o: ..\..\User\ModbusRTU\MODBUSCRC\modbusCRC.h
+..\..\output\modbuscrc.o: ..\..\User\stm32f10x_conf.h
+..\..\output\modbuscrc.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\output\modbuscrc.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\modbuscrc.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\modbuscrc.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\..\output\modbuscrc.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\modbuscrc.o: ..\..\User\stm32f10x_conf.h
+..\..\output\modbuscrc.o: ..\..\Libraries\FWlib\inc\stm32f10x_i2c.h
+..\..\output\modbuscrc.o: ..\..\Libraries\FWlib\inc\stm32f10x_iwdg.h
+..\..\output\modbuscrc.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\output\modbuscrc.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
+..\..\output\modbuscrc.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\output\modbuscrc.o: ..\..\Libraries\FWlib\inc\misc.h

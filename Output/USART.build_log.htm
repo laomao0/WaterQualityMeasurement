@@ -1,0 +1,218 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\hyn\Desktop\20190527增加了EPROM，修改bug\OnlineWater\Project\RVMDK（uv5）\BH-F103.uvprojx
+Project File Date:  05/27/2019
+
+<h2>Output:</h2>
+Build target 'USART'
+linking...
+Program Size: Code=30106 RO-data=3378 RW-data=924 ZI-data=11876  
+FromELF: creating hex file...
+"..\..\Output\USART.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+ Deprecated declaration IIC_Start - give arg types
+  void IIC_Start();
+..\..\User\usart\oled.h(97): warning:  #1295-D: Deprecated declaration IIC_Stop - give arg types
+  void IIC_Stop();
+..\..\User\usart\remote.h(29): warning:  #9-D: nested comment is not allowed
+                                case 104:str="*";                               break;             //*
+..\..\User\usart\processing.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(s, "%s PH  %0.2f",state, measurement[0]);
+..\..\User\usart\processing.c(86): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(s, "%s ORP %.0f  mv", state, measurement[1]);
+..\..\User\usart\processing.c(91): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(s, "%s CL  %.2f ppm", state, measurement[2]);
+..\..\User\usart\processing.c(95): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(s, "%s TEM %2d.%d  C",state,tmpeture/10,tmpeture%10);
+..\..\User\usart\processing.c(135): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(s, "%s CL  %3d  mv",state, volt1);
+..\..\User\usart\processing.c(138): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(s, "%s ORP %3d  mv", state, volt2);
+..\..\User\usart\processing.c(143): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(s, "%s PH  %3d  mv", state, volt3);
+..\..\User\usart\processing.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(s, "%s TEM %2d.%d  C",state,tmpeture/10,tmpeture%10);
+..\..\User\usart\processing.c(198): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str, "       %s   ",three_name[no-1]); //校正的式第no个参数
+..\..\User\usart\processing.c(202): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str,"   %s:%s%s ",three_name[no-1],typical_value[no-1], unit[no-1]);
+..\..\User\usart\processing.c(216): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                sprintf(info_str,"   %s:",three_name[no-1]);
+..\..\User\usart\processing.c(222): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(235): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                                                u8 cali_len = strlen(in_str);
+..\..\User\usart\processing.c(242): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                                                  u8 cali_len = strlen(in_str);
+..\..\User\usart\processing.c(245): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                                                                cal_x1 = atof(in_str);
+..\..\User\usart\processing.c(266): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                                        sprintf(info_str,"    %s %s",three_name[no-1], three_range[no-1]);
+..\..\User\usart\processing.c(276): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                                        sprintf(info_str,"    %s %s",three_name[no-1], three_range[no-1]);
+..\..\User\usart\processing.c(300): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                sprintf(in_str, "%s%s",in_str, string_cali_key);
+..\..\User\usart\processing.c(314): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%.2f #",cal_x1);
+..\..\User\usart\processing.c(315): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(318): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d", volt1); //第二行
+..\..\User\usart\processing.c(359): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%.2f #",cal_x1);
+..\..\User\usart\processing.c(360): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(363): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d #", cal_y1); //第二行
+..\..\User\usart\processing.c(366): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(375): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                                                u8 cali_len = strlen(in_str);
+..\..\User\usart\processing.c(380): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                                                        u8 cali_len = strlen(in_str);
+..\..\User\usart\processing.c(383): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                                                                cal_x2 = atof(in_str);
+..\..\User\usart\processing.c(399): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                                                sprintf(info_str,"    %s %s",three_name[no-1], three_range[no-1]);
+..\..\User\usart\processing.c(410): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                                        sprintf(info_str,"    %s %s",three_name[no-1], three_range[no-1]);
+..\..\User\usart\processing.c(437): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                sprintf(in_str, "%s%s",in_str, string_cali_key);
+..\..\User\usart\processing.c(451): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%.2f #",cal_x1);
+..\..\User\usart\processing.c(452): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(455): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d #", cal_y1); //第二行
+..\..\User\usart\processing.c(458): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                    sprintf(s, "%.2f #",cal_x2);
+..\..\User\usart\processing.c(459): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(462): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d", volt1); //第二行
+..\..\User\usart\processing.c(502): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%.2f #",cal_x1);
+..\..\User\usart\processing.c(503): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(506): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d #", cal_y1); //第二行
+..\..\User\usart\processing.c(509): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                    sprintf(s, "%.2f #",cal_x2);
+..\..\User\usart\processing.c(510): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(513): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d #", cal_y2); //第二行
+..\..\User\usart\processing.c(557): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                        sprintf(in_str, "%.4f",k);
+..\..\User\usart\processing.c(566): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                        sprintf(in_str, "%.4f",b);
+..\..\User\usart\processing.c(184): warning:  #177-D: variable "cali_key" was declared but never referenced
+        char cali_key;
+..\..\User\usart\processing.c(623): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                        sprintf(s, " %s:%.1f %.0f",three_name[no],k,b); //第二行
+..\..\User\usart\processing.c(618): warning:  #177-D: variable "measurement" was declared but never referenced
+                float measurement[P_NUm];
+..\..\User\usart\processing.c(719): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(in_str, "%s%s",in_str, string_cali_key);
+..\..\User\usart\processing.c(721): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+        para[0] = atof(in_str);
+..\..\User\usart\processing.c(728): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(in_str, "%s%s",in_str, string_cali_key);
+..\..\User\usart\processing.c(730): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+        para[1] = atof(in_str);
+..\..\User\usart\processing.c(766): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\User\usart\processing.c: 57 warnings, 0 errors
+linking...
+Program Size: Code=30106 RO-data=3378 RW-data=924 ZI-data=11876  
+FromELF: creating hex file...
+"..\..\Output\USART.axf" - 0 Error(s), 57 Warning(s).
+          sprintf(s, "%.2f #",cal_x1);
+..\..\User\usart\processing.c(315): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(318): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d", volt1); //第二行
+..\..\User\usart\processing.c(359): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%.2f #",cal_x1);
+..\..\User\usart\processing.c(360): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(363): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d #", cal_y1); //第二行
+..\..\User\usart\processing.c(366): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(375): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                                                u8 cali_len = strlen(in_str);
+..\..\User\usart\processing.c(380): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                                                        u8 cali_len = strlen(in_str);
+..\..\User\usart\processing.c(383): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                                                                cal_x2 = atof(in_str);
+..\..\User\usart\processing.c(399): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                                                sprintf(info_str,"    %s %s",three_name[no-1], three_range[no-1]);
+..\..\User\usart\processing.c(410): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                                        sprintf(info_str,"    %s %s",three_name[no-1], three_range[no-1]);
+..\..\User\usart\processing.c(437): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                                sprintf(in_str, "%s%s",in_str, string_cali_key);
+..\..\User\usart\processing.c(451): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%.2f #",cal_x1);
+..\..\User\usart\processing.c(452): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(455): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d #", cal_y1); //第二行
+..\..\User\usart\processing.c(458): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                    sprintf(s, "%.2f #",cal_x2);
+..\..\User\usart\processing.c(459): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(462): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d", volt1); //第二行
+..\..\User\usart\processing.c(502): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%.2f #",cal_x1);
+..\..\User\usart\processing.c(503): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(506): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d #", cal_y1); //第二行
+..\..\User\usart\processing.c(509): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                    sprintf(s, "%.2f #",cal_x2);
+..\..\User\usart\processing.c(510): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(info_str," %s:",three_name[no-1]);
+..\..\User\usart\processing.c(513): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                sprintf(s, "%3d #", cal_y2); //第二行
+..\..\User\usart\processing.c(557): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                        sprintf(in_str, "%.4f",k);
+..\..\User\usart\processing.c(566): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                        sprintf(in_str, "%.4f",b);
+..\..\User\usart\processing.c(184): warning:  #177-D: variable "cali_key" was declared but never referenced
+        char cali_key;
+..\..\User\usart\processing.c(623): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                        sprintf(s, " %s:%.1f %.0f",three_name[no],k,b); //第二行
+..\..\User\usart\processing.c(618): warning:  #177-D: variable "measurement" was declared but never referenced
+                float measurement[P_NUm];
+..\..\User\usart\processing.c(719): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(in_str, "%s%s",in_str, string_cali_key);
+..\..\User\usart\processing.c(721): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+        para[0] = atof(in_str);
+..\..\User\usart\processing.c(728): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                sprintf(in_str, "%s%s",in_str, string_cali_key);
+..\..\User\usart\processing.c(730): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+        para[1] = atof(in_str);
+..\..\User\usart\processing.c(766): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\User\usart\processing.c: 57 warnings, 0 errors
+compiling bsp_i2c_ee.c...
+..\..\User\usart\oled.h(95): warning:  #1295-D: Deprecated declaration Picture - give arg types
+  void Picture();
+..\..\User\usart\oled.h(96): warning:  #1295-D: Deprecated declaration IIC_Start - give arg types
+  void IIC_Start();
+..\..\User\usart\oled.h(97): warning:  #1295-D: Deprecated declaration IIC_Stop - give arg types
+  void IIC_Stop();
+..\..\User\usart\remote.h(29): warning:  #9-D: nested comment is not allowed
+                                case 104:str="*";                               break;             //*
+..\..\User\usart\bsp_i2c_ee.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=30090 RO-data=3378 RW-data=924 ZI-data=11876  
+FromELF: creating hex file...
+"..\..\Output\USART.axf" - 0 Error(s), 110 Warning(s).
